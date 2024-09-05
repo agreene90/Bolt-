@@ -1,5 +1,7 @@
 # Bolt: Real-Time EEG Processing and Reinforcement Learning with Docker and Hardware Integration
-
+___
+[img](https://github.com/agreene90/Bolt-/blob/main/Boltframe.jpg)
+___
 ## Overview
 Bolt is a fully-implemented system designed to process real-time EEG signals using Spiking Neural Networks (SNN), multi-head attention, and reinforcement learning. The system is optimized for GPU execution and can be deployed on EEG wearable devices through hardware interfaces.
 
