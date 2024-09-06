@@ -63,4 +63,7 @@ Bolt/
 ```
 
 ## Authors and Contributors
-Developed by HermiTech.
+Developed by 
+@LoQiaeKing69
+@agreene90
+For HermiTech LLC.
