@@ -39,9 +39,10 @@ jobs:
         pytest || echo "Some tests failed, but continuing deployment"
     
     # Step 5: Build the Docker image with automatic versioning (tagged with commit SHA and 'latest')
+    # Ensure Dockerfile location is correct
     - name: Build Docker image
       run: |
-        docker build -t bolt-eeg:${{ github.sha }} .
+        docker build -f docker/Dockerfile -t bolt-eeg:${{ github.sha }} .
         docker tag bolt-eeg:${{ github.sha }} bolt-eeg:latest
 
     # Step 6: Package the main Python program as a self-contained executable (auto-create src directory if missing)
