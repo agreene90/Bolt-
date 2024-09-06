@@ -64,6 +64,6 @@ Bolt/
 
 ## Authors and Contributors
 Developed by 
-@LoQiaeKing69
-@agreene90
-For HermiTech LLC.
+[@LoQiseaking69]
+[@agreene90]
+For [HermiTech LLC.]
