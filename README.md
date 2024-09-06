@@ -2,16 +2,19 @@
 ___
 ![img](https://github.com/agreene90/Bolt-/blob/main/Boltframe.jpg)
 ___
+
 ## Overview
 Bolt is a fully-implemented system designed to process real-time EEG signals using Spiking Neural Networks (SNN), multi-head attention, and reinforcement learning. The system is optimized for GPU execution and can be deployed on EEG wearable devices through hardware interfaces.
 
 ## Features
-- **EEG Preprocessing**: Real-time filtering and normalization of EEG signals.
-- **Spiking Neural Network**: Processes time-based EEG signals.
-- **Multi-Head Attention**: Enhances temporal patterns in EEG signals.
-- **Reinforcement Learning Agent**: Learns actions based on EEG states.
-- **Docker Support**: Full containerization for running the project with PyTorch and CUDA support.
-- **MicroPython Integration**: Interfacing with EEG hardware (e.g., wearable EEG glasses).
+- **Advanced EEG Preprocessing**: Real-time filtering, noise reduction, and band-pass filtering of EEG signals.
+- **Spiking Neural Network (SNN)**: Processes time-based EEG signals with biologically inspired neuron models.
+- **Multi-Head Attention**: Enhances temporal patterns in EEG signals with multi-scale attention.
+- **Reinforcement Learning Agent**: Learns and performs actions based on EEG states with Proximal Policy Optimization (PPO) and experience replay.
+- **Ensemble Learning**: Combines multiple models to improve accuracy and robustness.
+- **FPGA Integration**: Processes EEG data with hardware-level filtering and signal normalization.
+- **Docker Support**: Full containerization for running the project with PyTorch, CUDA, and MicroPython.
+- **MicroPython Integration**: Interfacing with EEG hardware (e.g., wearable EEG glasses) for real-time communication and control.
 
 ## Requirements
 1. Docker
@@ -63,7 +66,5 @@ Bolt/
 ```
 
 ## Authors and Contributors
-Developed by 
-[@LoQiseaking69]
-[@agreene90]
-For [HermiTech LLC.]
+@LoQiseaking69
+Developed by HermiTech.
