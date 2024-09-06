@@ -24,7 +24,7 @@ Bolt is a fully-implemented system designed to process real-time EEG signals usi
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/HermiTech-LLC/Bolt.git
+git clone https://github.com/agreene90/Bolt.git
 cd Bolt
 ```
 
